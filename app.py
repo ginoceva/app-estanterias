@@ -86,7 +86,7 @@ def generate_label_pdf_from_dataframe(dataframe):
         c.drawImage(datamatrix_image, dm_x, dm_y, width=dm_size_pt, height=dm_size_pt)
 
         # 2. Texto de Ubicación
-        font_size = 80
+        font_size = 75
         c.setFont(font_name, font_size)
         text_ubicacion_x = current_x + (label_width_pt / 2)
         text_height = font_size * 0.8
