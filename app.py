@@ -56,7 +56,7 @@ def generate_label_pdf_from_dataframe(dataframe):
         print("Advertencia: No se pudo registrar Arial-Black. Usando fuente por defecto.")
 
     label_width_pt = 260 * mm
-    label_height_pt = 55 * mm
+    label_height_pt = 63 * mm
     margin_x = (width - label_width_pt) / 2
     y_positions = [height - (label_height_pt * 1) - 20*mm, height - (label_height_pt * 2) - 40*mm]
     
